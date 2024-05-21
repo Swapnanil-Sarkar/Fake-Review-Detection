@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block main %}
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+          <img src="/static/assets/img/m2.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+          <h3 align="justify">The project aims to develop a robust system for identifying fake reviews across various online platforms. It seeks to enhance trust and reliability for consumers by filtering out deceptive or misleading reviews.</h3>
+          <p align="justify" class="fst-italic">
+            Utilizing advanced machine learning algorithms and natural language processing (NLP) techniques, the system analyzes linguistic patterns, sentiment, and contextual clues within reviews to distinguish between genuine and fake feedback.
+          </p>
+          <ul>
+            <li align="justify"><i class="bi bi-check-circle"></i>The project gathers a diverse dataset of reviews from different sources, including e-commerce websites, social media platforms, and review aggregators. This comprehensive dataset serves as the foundation for training and validating the model.</li>
+            <li align="justify"><i class="bi bi-check-circle"></i>By extracting key features such as review length, frequency of certain words or phrases, and user engagement metrics, the system learns to identify suspicious patterns indicative of fake reviews. Additionally, it considers metadata such as reviewer history and product information to enhance accuracy.</li>
+          </ul>
+          <p align="justify">
+            The effectiveness of the developed model is evaluated through rigorous testing against known fake and genuine reviews. Upon achieving satisfactory performance, the system can be deployed as a tool for online platforms to automatically detect and flag suspicious reviews in real-time, empowering users to make informed decisions.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+{%endblock%}
